@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tugas 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    header, nav,article,footer {
+        border: 2px solid black;
+    }
+
+    header {
+        background-color: #C0C0C0;
+        text-align: center;
+        font-size: 35px;
+        height: 200px;
+        width: 784px;
+        color: black;
+    }
+
+    nav {
+        float: left;
+        padding:4px;
+        width: 200px;
+        background: #FFD700 ;
+        height:220px; /* jika auto height, height dari nav dengan height dari article tidak sama */
+    }   
+
+    nav ul {
+        list-style-type: symbols();
+        padding: 1;
+        height: auto;
+    }
+
+    article {
+        float: left;
+        width: 584px;
+        padding:5px;
+        background-color: #FFC0CB;
+        height:220px; /*jika auto height, height dari nav dengan height dari article tidak sama*/
+    }
+
+    section:after {
+        content: "";
+        display: table;
+        clear: both;
+    }    
+
+    footer {
+        background-color: #8e7cb1;
+        padding: 26px;
+        text-align: center;
+        color: black;
+        height:100px;
+        width:784px;
+    }
+
+     
+    </style>
+    </head>
+<body>
+    <header>
+        <img src="2.jpg" style="padding-top: 20px;width:250px;height:180px" />
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+  
+    <article>
+        <label for="">Username:</label>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <label for="">Password:</label>
+        <input type="password" name="" id="">
+        <br>
+        <p>HTML dibuat oleh seorang ahli fisika dengan tim Berners Lee pada lembaga penelitian CERN yang ada di Swiss. Tim tersebut mempunyai ide mengenai sistem hypertext yang menggunakan basis internet. Tim Berners Lee mengeluarkan versi HTML yang pertama pada tahun 1991. Dalam versi tersebut terdapat 18 HTML tag. Hypertext merujuk pada teks yang terdapat referensi atau link untuk teks lain sehingga dapat diakses oleh pengguna. </p>
+    </article>
+    </section>
+
+    <footer>
+        <p>118140156 Muhammad Zulfarhan</p>
+    </footer>
+
+</body>
+</html>
