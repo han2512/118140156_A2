@@ -62,7 +62,7 @@
         } else {
             echo "<script>
                     alert('Nama tidak ditemukan');
-                    window.location.replace('index.php');
+                    window.location.replace('tambahdancari.php');
                 </script>";
         }
     ?>

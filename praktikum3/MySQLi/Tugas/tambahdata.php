@@ -12,7 +12,7 @@
         move_uploaded_file($namafoto_tmp, "gambar/${namafoto}");
         echo "
             <script>alert('Data berhasil upload');
-            window.location.replace('index.php');
+            window.location.replace('tambahdancari.php');
             </script>";
     } else {
         echo "<script> 
