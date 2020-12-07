@@ -1,0 +1,27 @@
+<biodata>
+	<nama>
+		<awal>Muhammad </awal>
+		<akhir>Zulfarhan</akhir>
+	</nama>
+	<umur>20 Thn </umur>
+	<jenis_kelamin> Laki-laki </jenis_kelamin>
+	<ttl> London, 12 Desember 2000</ttl>
+    <orang_tua>
+        <ayah>unknown</ayah>
+        <ibu>still unknown</ibu>
+    </orang_tua>
+	<alamat>
+        <jl>Jl. Nangka</jl>
+        <kecamatan>Sukarame</kecamatan>
+        <kota>Bandar Lampung</kota>
+    </alamat>
+    <hobi>ngegame</hobi>
+    <hobi>makan</hobi>
+    <hobi>minum</hobi>
+    <hobi>nonton</hobi>
+    <hobi>tidur</hobi>
+    <social_media>
+        <instagram>mhd_zfhan</instagram>
+        <facebook>Muhammad Zulfarhan</facebook>
+    </social_media>
+</biodata>

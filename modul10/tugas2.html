@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 2</title>
+</head>
+<body>
+    <main>
+        <div id="1">Praktikum </div> 
+        <section class="sama">Pemrograman </section>
+        <div class="sama">Web</div>
+        <br></br>
+        <button onclick="return ubah(document.getElementById('1'), 'blue')">Ubah Background 1 dengan getElementById</button><br>
+        <button onclick="return ubah(document.getElementsByClassName('sama'), 'gray')">Ubah Background class sama dengan getElementsByClassName</button><br>
+        <button onclick="return ubah(document.getElementsByTagName('section'), 'yellow')">Ubah Background section dengan getElementsByTagName</button><br>
+        <button onclick="return ubah(document.querySelector('div'), 'purple')">Ubah Background div dengan querySelector</button><br> 
+        <button onclick="return ubah(document.querySelectorAll('div'), 'red')">Ubah Background div dengan querySelectorAll</button><br>
+    </main>
+
+    <script>
+        function ubah(element, color) {
+            elementLength = element.length;
+            if (elementLength) {
+                for (let i = 0; i < elementLength; i++) {
+                    element[i].style.backgroundColor = color;
+                }
+                return;
+            }
+            element.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>

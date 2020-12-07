@@ -1,0 +1,23 @@
+{
+	"nama": {
+		"awal" : "Muhammad",
+		"akhir" : "Zulfarhan"
+    },
+	"umur": 20 ,
+    "jenis_kelamin": "Laki - laki ",
+    "ttl": "London, 12 Desember 2000",
+    "orang_tua": {
+        "ayah": "unknown",
+        "ibu" : "still unknown"
+    },
+	"alamat": {
+		"jl" : "Jl. Nangka" , 
+		"kecamatan" : "Sukarame" ,
+		"kota" : "Bandar Lampung" 
+	} ,
+    "hobi": ["ngegame", "makan", "minum", "nonton", "tidur"],
+	"social_media": {
+        "instagram": "mhd_zfhan",
+        "facebook": "Muhammad Zulfarhan"
+    }
+}
