@@ -1,9 +1,6 @@
 <?php
 include "koneksi.php";
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 $nim = $_POST["nim"];
 $nama = $_POST["nama"];
 $prodi = $_POST["prodi"];
