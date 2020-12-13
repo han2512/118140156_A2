@@ -9,8 +9,12 @@
     </tr>
     <?php
     include "koneksi.php";
+<<<<<<< Updated upstream
     $hasil = mysqli_query($kon, 
     "select * from mahasiswa order by nim asc");
+=======
+    $hasil = mysqli_query($kon, "select * from mahasiswa order by nim asc");
+>>>>>>> Stashed changes
     $no = 0;
     while($data = mysqli_fetch_array($hasil)):
     $no++;
@@ -22,7 +26,11 @@
         <td><?php echo $data['prodi'];?></td>
         <td><?php echo $data['angkatan']; ?></td>
         <td>
+<<<<<<< Updated upstream
             <button id="<?php echo $data['nim']; ?>" class="edit"> Edit </button>
+=======
+            <button id="<?php echo $data['nim']; ?>" class="update"> Update </button>
+>>>>>>> Stashed changes
             <button id="<?php echo $data['nim']; ?>" class="hapus"> Hapus </button>
         </td>
     </tr>
